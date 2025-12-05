@@ -1,0 +1,21 @@
+{
+  "node": {
+    "40ed684ea8446d545fad8403ecc86624c3d41b849a": {
+      "workers": {
+        "app/[slug]/page": {
+          "moduleId": "[project]/RSC-sample-app/.next-internal/server/app/[slug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/RSC-sample-app/app/[slug]/input.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "greetAction",
+          "filename": "RSC-sample-app/app/[slug]/input.tsx"
+        }
+      },
+      "layer": {
+        "app/[slug]/page": "action-browser"
+      },
+      "filename": "RSC-sample-app/app/[slug]/input.tsx",
+      "exportedName": "greetAction"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "n13QD2k2bUYFLccxePJngHuGAvRtJ+/x2vpLOiwHrDY="
+}

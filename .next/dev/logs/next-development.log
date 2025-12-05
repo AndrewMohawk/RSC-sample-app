@@ -1,0 +1,11 @@
+[00:00:11.728] Server  LOG      ✓ Ready in 11.3s
+[00:00:32.603] Server  LOG      ○ Compiling /[slug] ...
+[00:00:37.526] Server  LOG     1
+[00:00:37.533] Server  LOG     1
+[00:00:37.782] Server  LOG     1
+[00:00:38.413] Server  ERROR    ⨯ TypeError: fetch failed
+[00:01:32.500] Server  LOG      ✓ Compiled in 96ms
+[00:01:45.803] Server  LOG      ✓ Compiled in 45ms
+[00:01:51.451] Server  LOG     1
+[00:01:51.585] Server  LOG     1
+[00:01:52.117] Server  LOG     Failed to fetch from API: TypeError: fetch failed
