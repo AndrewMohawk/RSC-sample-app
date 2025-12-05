@@ -2,9 +2,9 @@
 
 export async function greetAction(input: string): Promise<string> {
   const secret = "ZGVnZW5lcmF0ZSBwYXJ0eSB0aW1l"
-  // fetch from https://api.example.com/secret with the secret as the Authorization header
+  // fetch from https://api.andrewmohawk.xyz/secret with the secret as the Authorization header
   try {
-    const response = await fetch("https://api.example.com/" + input, {
+    const response = await fetch("https://api.andrewmohawk.xyz/" + input, {
       headers: {
         Authorization: secret,
       },
