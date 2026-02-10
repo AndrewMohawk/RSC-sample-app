@@ -1,6 +1,6 @@
 import { Readable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
-import { createTemporaryReferenceSet, decodeReplyFromBusboy } from 'react-server-dom-webpack/server.node';
+import { createTemporaryReferenceSet, decodeReplyFromBusboy } from 'next/dist/compiled/react-server-dom-webpack/server.node';
 
 export const runtime = 'nodejs';
 

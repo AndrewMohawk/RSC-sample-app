@@ -1,4 +1,4 @@
-import { decodeAction } from 'react-server-dom-webpack/server.node';
+import { decodeAction } from 'next/dist/compiled/react-server-dom-webpack/server.node';
 
 export const runtime = 'nodejs';
 
