@@ -1,10 +1,5 @@
-import { greetAction } from "./server-actions";
+import ClientForm from "./client-form";
 
 export default function Page() {
-  return (
-    <form action={greetAction}>
-      <input name="name" placeholder="name" />
-      <button type="submit">Submit</button>
-    </form>
-  );
+  return <ClientForm />;
 }
